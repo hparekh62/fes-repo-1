@@ -1,0 +1,32 @@
+.main-menu{
+  background-color: aquamarine;
+}
+
+@media (max-width: 500px){
+  .main-menu{
+    background-color: brown;
+  }
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.viewport-class{
+    color: black;
+}
+
+@media(max-width: 768px){
+    .viewport-class{
+        color: purple;
+    }
+}
